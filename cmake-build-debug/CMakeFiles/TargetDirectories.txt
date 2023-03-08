@@ -1,0 +1,3 @@
+/home/francisco/Escritorio/Practica1DS/cmake-build-debug/CMakeFiles/Practica1DS.dir
+/home/francisco/Escritorio/Practica1DS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/francisco/Escritorio/Practica1DS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
