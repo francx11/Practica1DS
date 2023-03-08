@@ -11,6 +11,8 @@ int main() {
 
     cliente1.comprar(factoria);
 
+    cout <<"FUncionando git" << endl;
+
 
 
 
