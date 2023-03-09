@@ -3,4 +3,4 @@ project(Practica1DS)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Practica1DS main.cpp FactoriaTiendasYMesas.cpp FactoriaTiendasYMesas.h)
+add_executable(Practica1DS main.cpp FactoriaMesas.cpp FactoriaMesas.h Cliente.cpp MesaCocina.cpp MesaOficina.cpp PrototipoMesa.cpp)

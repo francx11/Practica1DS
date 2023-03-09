@@ -2,23 +2,20 @@
 #define CLIENTE_H
 #include <iostream>
 #include "PrototipoMesa.h"
-#include "PrototipoTienda.h"
-#include "FactoriaTiendasYMesas.h"
+#include "FactoriaMesas.h"
+#include "MesaCocina.h"
+#include "MesaOficina.h"
+#include <vector>
 
 class Cliente {
 private :
-    int numMesas;
+    vector<FactoriaMesas> mesas;
 
 
 public:
-    Cliente(){
-        numMesas= 0;
-    }
 
-	void comprar(FactoriaTiendasYMesas factoria);
+	void comprar(FactoriaMesas factoria);
 
-    int getnumMesas();
-    void setNumMesas(int numMesas);
 
 };
 

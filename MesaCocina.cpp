@@ -1,9 +1,19 @@
 #include "MesaCocina.h"
 
-public MesaCocina(&this){
-    return this;
+MesaCocina::MesaCocina(){
+    largo= 0;
+    ancho= 0;
+    alto= 0;
+    material="madera";
+
 }
 
-MesaCocina* mesaCocina::Clone() { //Hay que crear constructor para que funcione este metodo
-    return new MesaCocina(this);
+void MesaCocina::establecerDimensiones(int largo, int ancho, int alto) {
+    this->largo= largo;
+    this->ancho= ancho;
+    this->alto= alto;
+}
+
+void MesaCocina::establecerMaterial(string material) {
+    this->material= material;
 }

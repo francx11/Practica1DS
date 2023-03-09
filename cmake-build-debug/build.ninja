@@ -55,8 +55,32 @@ build CMakeFiles/Practica1DS.dir/main.cpp.o: CXX_COMPILER__Practica1DS_Debug /ho
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
 
-build CMakeFiles/Practica1DS.dir/FactoriaTiendasYMesas.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/FactoriaTiendasYMesas.cpp || cmake_object_order_depends_target_Practica1DS
-  DEP_FILE = CMakeFiles/Practica1DS.dir/FactoriaTiendasYMesas.cpp.o.d
+build CMakeFiles/Practica1DS.dir/FactoriaMesas.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/FactoriaMesas.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/FactoriaMesas.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/Cliente.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/Cliente.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/Cliente.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/MesaCocina.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/MesaCocina.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/MesaCocina.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/MesaOficina.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/MesaOficina.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/MesaOficina.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/PrototipoMesa.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
@@ -69,7 +93,7 @@ build CMakeFiles/Practica1DS.dir/FactoriaTiendasYMesas.cpp.o: CXX_COMPILER__Prac
 #############################################
 # Link the executable Practica1DS
 
-build Practica1DS: CXX_EXECUTABLE_LINKER__Practica1DS_Debug CMakeFiles/Practica1DS.dir/main.cpp.o CMakeFiles/Practica1DS.dir/FactoriaTiendasYMesas.cpp.o
+build Practica1DS: CXX_EXECUTABLE_LINKER__Practica1DS_Debug CMakeFiles/Practica1DS.dir/main.cpp.o CMakeFiles/Practica1DS.dir/FactoriaMesas.cpp.o CMakeFiles/Practica1DS.dir/Cliente.cpp.o CMakeFiles/Practica1DS.dir/MesaCocina.cpp.o CMakeFiles/Practica1DS.dir/MesaOficina.cpp.o CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   POST_BUILD = :

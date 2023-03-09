@@ -1,13 +1,24 @@
 #include "MesaOficina.h"
 
 
-    public mesaOficina(){
+MesaOficina::MesaOficina(){
+    largo= 0;
+    ancho= 0;
+    alto= 0;
+    material="madera";
 
-    }
+}
 
-    MesaOficina* mesaOficina::Clone() { //Hay que crear constructor para que funcione este metodo
-        return new mesaOficina(this);
-    }
-};
+void MesaOficina::establecerDimensiones(int largo, int ancho, int alto) {
+    this->largo= largo;
+    this->ancho= ancho;
+    this->alto= alto;
+}
+
+void MesaOficina::establecerMaterial(string material) {
+    this->material= material;
+}
+
+
 
 

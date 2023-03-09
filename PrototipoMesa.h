@@ -1,11 +1,14 @@
 #ifndef PROTOTIPOMESA_H
 #define PROTOTIPOMESA_H
 
+#include "FactoriaMesas.h"
+
 class PrototipoMesa {
 
 
 public:
-	virtual void Clone();
+	virtual FactoriaMesas * clone();
+    virtual ~PrototipoMesa();
 };
 
 #endif
