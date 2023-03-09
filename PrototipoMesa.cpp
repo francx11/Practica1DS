@@ -1,6 +1,6 @@
 #include "PrototipoMesa.h"
 
-FactoriaMesas * clone(){
+PrototipoMesa * clone(){
 
 }
 

@@ -3,11 +3,11 @@
 
 #include "FactoriaMesas.h"
 
-class PrototipoMesa {
+class PrototipoMesa : FactoriaMesas {
 
 
 public:
-	virtual FactoriaMesas * clone();
+	virtual PrototipoMesa * clone();
     virtual ~PrototipoMesa();
 };
 

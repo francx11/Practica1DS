@@ -17,3 +17,6 @@ void MesaCocina::establecerDimensiones(int largo, int ancho, int alto) {
 void MesaCocina::establecerMaterial(string material) {
     this->material= material;
 }
+PrototipoMesa *MesaCocina::clone() {
+    return new MesaCocina(*this);
+}

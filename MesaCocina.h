@@ -12,7 +12,7 @@ private:
 
 public:
     MesaCocina();
-    virtual FactoriaMesas* clone();
+    virtual PrototipoMesa * clone();
     void establecerDimensiones(int largo, int ancho, int alto);
     void establecerMaterial(string material);
 
