@@ -55,8 +55,8 @@ build CMakeFiles/Practica1DS.dir/main.cpp.o: CXX_COMPILER__Practica1DS_Debug /ho
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
 
-build CMakeFiles/Practica1DS.dir/FactoriaMesas.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/FactoriaMesas.cpp || cmake_object_order_depends_target_Practica1DS
-  DEP_FILE = CMakeFiles/Practica1DS.dir/FactoriaMesas.cpp.o.d
+build CMakeFiles/Practica1DS.dir/FactoriaAbstracta.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/FactoriaAbstracta.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/FactoriaAbstracta.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
@@ -79,8 +79,32 @@ build CMakeFiles/Practica1DS.dir/MesaOficina.cpp.o: CXX_COMPILER__Practica1DS_De
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
 
-build CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/PrototipoMesa.cpp || cmake_object_order_depends_target_Practica1DS
-  DEP_FILE = CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o.d
+build CMakeFiles/Practica1DS.dir/Mesa.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/Mesa.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/Mesa.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/FactoriaMuebles.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/FactoriaMuebles.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/FactoriaMuebles.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/Silla.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/Silla.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/Silla.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/SillaOficina.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/SillaOficina.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/SillaOficina.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Practica1DS.dir
+  OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
+
+build CMakeFiles/Practica1DS.dir/SillaCocina.cpp.o: CXX_COMPILER__Practica1DS_Debug /home/francisco/Escritorio/Practica1DS/SillaCocina.cpp || cmake_object_order_depends_target_Practica1DS
+  DEP_FILE = CMakeFiles/Practica1DS.dir/SillaCocina.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   OBJECT_FILE_DIR = CMakeFiles/Practica1DS.dir
@@ -93,7 +117,7 @@ build CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o: CXX_COMPILER__Practica1DS_
 #############################################
 # Link the executable Practica1DS
 
-build Practica1DS: CXX_EXECUTABLE_LINKER__Practica1DS_Debug CMakeFiles/Practica1DS.dir/main.cpp.o CMakeFiles/Practica1DS.dir/FactoriaMesas.cpp.o CMakeFiles/Practica1DS.dir/Cliente.cpp.o CMakeFiles/Practica1DS.dir/MesaCocina.cpp.o CMakeFiles/Practica1DS.dir/MesaOficina.cpp.o CMakeFiles/Practica1DS.dir/PrototipoMesa.cpp.o
+build Practica1DS: CXX_EXECUTABLE_LINKER__Practica1DS_Debug CMakeFiles/Practica1DS.dir/main.cpp.o CMakeFiles/Practica1DS.dir/FactoriaAbstracta.cpp.o CMakeFiles/Practica1DS.dir/Cliente.cpp.o CMakeFiles/Practica1DS.dir/MesaCocina.cpp.o CMakeFiles/Practica1DS.dir/MesaOficina.cpp.o CMakeFiles/Practica1DS.dir/Mesa.cpp.o CMakeFiles/Practica1DS.dir/FactoriaMuebles.cpp.o CMakeFiles/Practica1DS.dir/Silla.cpp.o CMakeFiles/Practica1DS.dir/SillaOficina.cpp.o CMakeFiles/Practica1DS.dir/SillaCocina.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Practica1DS.dir
   POST_BUILD = :
@@ -106,7 +130,7 @@ build Practica1DS: CXX_EXECUTABLE_LINKER__Practica1DS_Debug CMakeFiles/Practica1
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/francisco/Escritorio/Practica1DS/cmake-build-debug && /snap/clion/222/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/francisco/Escritorio/Practica1DS/cmake-build-debug && /snap/clion/229/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -117,7 +141,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/francisco/Escritorio/Practica1DS/cmake-build-debug && /snap/clion/222/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/francisco/Escritorio/Practica1DS -B/home/francisco/Escritorio/Practica1DS/cmake-build-debug
+  COMMAND = cd /home/francisco/Escritorio/Practica1DS/cmake-build-debug && /snap/clion/229/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/francisco/Escritorio/Practica1DS -B/home/francisco/Escritorio/Practica1DS/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -144,14 +168,14 @@ build all: phony Practica1DS
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/francisco/Escritorio/Practica1DS/CMakeLists.txt /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/francisco/Escritorio/Practica1DS/CMakeLists.txt /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/francisco/Escritorio/Practica1DS/CMakeLists.txt /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /home/francisco/Escritorio/Practica1DS/CMakeLists.txt /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/229/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

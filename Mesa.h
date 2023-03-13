@@ -1,9 +1,12 @@
-#ifndef MESACOCINA_H
-#define MESACOCINA_H
-#include "Mesa.h"
+#ifndef PROTOTIPOMESA_H
+#define PROTOTIPOMESA_H
 
+#include "FactoriaMuebles.h"
+#include <string>
 
-class MesaCocina : Mesa {
+using namespace std;
+
+class Mesa {
 private:
     int alto;
     int ancho;
@@ -11,13 +14,12 @@ private:
     string material;
 
 
+
 public:
-    MesaCocina();
-    virtual Mesa * clone();
+	virtual Mesa * clone();
+    virtual ~Mesa();
     void establecerDimensiones(int largo, int ancho, int alto);
     void establecerMaterial(string material);
-
-
 };
 
 #endif

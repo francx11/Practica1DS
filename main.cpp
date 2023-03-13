@@ -1,17 +1,15 @@
 #include <iostream>
 #include "Cliente.h"
-#include "FactoriaMesas.h"
+#include "FactoriaAbstracta.h"
 
 using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    Cliente cliente1;
-    FactoriaMesas factoria;
+    Cliente cliente;
+    FactoriaAbstracta factoria;
 
-    cliente1.comprar(factoria);
+    cliente.comprar(factoria);
 
-    cout <<"FUncionando git" << endl;
 
 
 

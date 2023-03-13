@@ -1,7 +1,5 @@
 # ninja log v5
 298	386	1678209013758892398	Practica1DS	fca9069947d67cb9
-0	37	1678366653725803860	build.ninja	97c618d0a4393d6f
-0	288	1678208592930052927	CMakeFiles/Practica1DS.dir/src/main.cpp.o	b54413800a2e6937
+0	37	1678699584792869486	build.ninja	97c618d0a4393d6f
 0	297	1678209013672068305	CMakeFiles/Practica1DS.dir/main.cpp.o	31fe4b2dfcada014
 1	41	1678208144251362763	CMakeFiles/Practica1DS.dir/Cliente.cpp.o	dcd04876c8f384d0
-1	12	1678206310410509664	CMakeFiles/Practica1DS.dir/factoriaMuebles.cpp.o	5551e35b9c92fc42

@@ -1,8 +1,8 @@
 #ifndef MESAOFICINA_H
 #define MESAOFICINA_H
-#include "PrototipoMesa.h"
+#include "Mesa.h"
 
-class MesaOficina : PrototipoMesa {
+class MesaOficina : Mesa {
 private:
     int alto;
     int ancho;
@@ -12,7 +12,7 @@ private:
 
 public:
     MesaOficina();
-	virtual PrototipoMesa * clone();
+	virtual Mesa * clone();
     void establecerDimensiones(int largo, int ancho, int alto);
     void establecerMaterial(string material);
 

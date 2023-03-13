@@ -2,7 +2,9 @@
 
 using namespace std;
 
-void Cliente::comprar(FactoriaMesas factoria) {
+void Cliente::comprar(FactoriaAbstracta factoria) {
+
+
 
 
 }

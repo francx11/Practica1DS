@@ -19,7 +19,7 @@ void MesaOficina::establecerMaterial(string material) {
     this->material= material;
 }
 
-PrototipoMesa *MesaOficina::clone() {
+Mesa *MesaOficina::clone() {
     return new MesaOficina(*this);
 }
 

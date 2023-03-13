@@ -1,20 +1,21 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
 #include <iostream>
-#include "PrototipoMesa.h"
-#include "FactoriaMesas.h"
+#include "Mesa.h"
+#include "FactoriaAbstracta.h"
 #include "MesaCocina.h"
 #include "MesaOficina.h"
 #include <vector>
 
 class Cliente {
 private :
-    vector<FactoriaMesas> mesas;
+    vector<Mesa> mesas;
+    vector<Silla> sillas;
 
 
 public:
 
-	void comprar(FactoriaMesas factoria);
+	void comprar(FactoriaAbstracta factoria);
 
 
 };
