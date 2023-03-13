@@ -6,9 +6,11 @@ using namespace std;
 
 int main() {
     Cliente cliente;
-    FactoriaAbstracta factoria;
+    FactoriaMuebles factoria;
+    Mesa mesa;
+    Silla silla;
 
-    cliente.comprar(factoria);
+    cliente.comprar(factoria,mesa,silla);
 
 
 

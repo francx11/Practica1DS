@@ -9,7 +9,7 @@
 #include "FactoriaAbstracta.h"
 
 
-class FactoriaMuebles : FactoriaAbstracta{
+class FactoriaMuebles : public FactoriaAbstracta{
 public:
     virtual ~FactoriaMuebles();
     virtual Mesa & obtenerMesa(Mesa mesa);

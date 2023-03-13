@@ -15,7 +15,7 @@ private :
 
 public:
 
-	void comprar(FactoriaAbstracta factoria);
+	void comprar(FactoriaAbstracta factoria,Mesa mesa,Silla silla);
 
 
 };
