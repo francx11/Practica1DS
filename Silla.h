@@ -15,6 +15,7 @@ class Silla {
 public:
     virtual ~Silla();
     virtual Silla * clone();
+    virtual string toString();
 
 
 };

@@ -8,17 +8,12 @@
 
 
 class SillaOficina : Silla{
-private:
-    int alto;
-    int ancho;
-    int largo;
-    string material;
+
 
 public:
     SillaOficina();
     virtual Silla * clone();
-    void establecerDimensiones(int largo, int ancho, int alto);
-    void establecerMaterial(string material);
+    virtual string toString();
 
 
 

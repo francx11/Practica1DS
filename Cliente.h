@@ -5,6 +5,8 @@
 #include "FactoriaAbstracta.h"
 #include "MesaCocina.h"
 #include "MesaOficina.h"
+#include "SillaCocina.h"
+#include "SillaOficina.h"
 #include <vector>
 
 class Cliente {
@@ -16,6 +18,8 @@ private :
 public:
 
 	void comprar(FactoriaAbstracta factoria,Mesa mesa,Silla silla);
+    void menuPrincipal(FactoriaAbstracta factoria,Mesa mesa, Silla silla);
+    void menuSecundario(FactoriaAbstracta factoria,Mesa mesa,Silla silla);
 
 
 };
