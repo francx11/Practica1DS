@@ -14,9 +14,10 @@ private :
     vector<Silla* > sillas;
 
 
+
 public:
 
-	void comprar(FactoriaAbstracta * factoria,Mesa * mesa,Silla * silla);
+	void comprar(FactoriaAbstracta * factoria,Mesa * mesa,Silla * silla, int numMesas, int numSillas);
 
 
 };

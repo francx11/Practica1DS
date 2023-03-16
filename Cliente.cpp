@@ -5,22 +5,23 @@
 
 using namespace std;
 
-void Cliente::comprar(FactoriaAbstracta * factoria,Mesa * mesa, Silla * silla) {
+void Cliente::comprar(FactoriaAbstracta * factoria,Mesa * mesa, Silla * silla,int numMesas, int numSillas ) {
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < numMesas; i++)
     {
        mesas.push_back(factoria->obtenerMesa(mesa));
-       sillas.push_back(factoria->obtenerSilla(silla));
+
     }
 
-    for (int i = 0; i < 5; i++)
-    {
-        cout << sillas.at(i)->toString() << endl;
-        cout << mesas.at(i)->toString()<< endl;
+    cout << "\n Ha comprado: " << numMesas << " mesas de " << mesas.at(0)->toString() << endl;
+
+    for (int i = 0; i < numSillas ; ++i) {
+        sillas.push_back(factoria->obtenerSilla(silla));
+
     }
 
-    return;
-    //menuPrincipal(factoria,mesa,silla);
+    cout << "\n Ha comprado: " << numSillas << " sillas de " << sillas.at(0)->toString() << endl;
+
 
 }
 
