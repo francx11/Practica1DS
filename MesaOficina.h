@@ -2,16 +2,13 @@
 #define MESAOFICINA_H
 #include "Mesa.h"
 
-class MesaOficina : Mesa {
-
+class MesaOficina : public Mesa {
 
 public:
     MesaOficina();
-	virtual Mesa * clone();
-    virtual string toString();
-
-
-
+	Mesa * clone() ;
+    string toString() ;
+    MesaOficina(MesaOficina & copy);
 };
 
 #endif

@@ -5,19 +5,15 @@
 #ifndef PRACTICA1DS_SILLA_H
 #define PRACTICA1DS_SILLA_H
 
-#include "FactoriaMuebles.h"
+
 #include <string>
 
 using namespace std;
 
-
 class Silla {
 public:
-    virtual ~Silla();
-    virtual Silla * clone();
-    virtual string toString();
-
-
+    virtual Silla * clone() = 0;
+    virtual string toString() = 0;
 };
 
 

@@ -1,25 +1,17 @@
-#ifndef PROTOTIPOMESA_H
-#define PROTOTIPOMESA_H
+#ifndef PRACTICA1DS_MESA_H
+#define PRACTICA1DS_MESA_H
 
-#include "FactoriaMuebles.h"
+
 #include <string>
 
 using namespace std;
 
-class Mesa {
-private:
-    int alto;
-    int ancho;
-    int largo;
-    string material;
-
-
+class Mesa
+{
 
 public:
-	virtual Mesa * clone();
-    virtual ~Mesa();
-    void establecerDimensiones(int largo, int ancho, int alto);
-    void establecerMaterial(string material);
+     virtual Mesa * clone() = 0;
+     virtual string toString() = 0;
 };
 
 #endif

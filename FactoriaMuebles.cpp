@@ -5,10 +5,10 @@
 #include "FactoriaMuebles.h"
 
 
-Mesa & FactoriaMuebles::obtenerMesa(Mesa mesa) {
-    return *(mesa.clone());
+Mesa * FactoriaMuebles::obtenerMesa(Mesa * mesa) {
+    return mesa->clone();
 }
 
-Silla & FactoriaMuebles::obtenerSilla(Silla silla) {
-    return *(silla.clone());
+Silla * FactoriaMuebles::obtenerSilla(Silla * silla) {
+    return silla->clone();
 }

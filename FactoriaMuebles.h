@@ -4,18 +4,13 @@
 
 #ifndef PRACTICA1DS_FACTORIAMUEBLES_H
 #define PRACTICA1DS_FACTORIAMUEBLES_H
-#include "Mesa.h"
-#include "Silla.h"
 #include "FactoriaAbstracta.h"
 
 
-class FactoriaMuebles : public FactoriaAbstracta{
+class FactoriaMuebles : public FactoriaAbstracta {
 public:
-    virtual ~FactoriaMuebles();
-    virtual Mesa & obtenerMesa(Mesa mesa);
-    virtual Silla & obtenerSilla(Silla silla);
-
-
+    Mesa * obtenerMesa(Mesa * mesa) ;
+    Silla * obtenerSilla(Silla * silla) ;
 };
 
 

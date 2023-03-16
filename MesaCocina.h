@@ -3,13 +3,12 @@
 #include "Mesa.h"
 
 
-class MesaCocina : Mesa {
-
-
+class MesaCocina : public Mesa {
 public:
     MesaCocina();
-    virtual Mesa * clone();
-    virtual string toString();
+    Mesa * clone() ;
+    string toString() ;
+    MesaCocina(MesaCocina & copia);
 
 
 

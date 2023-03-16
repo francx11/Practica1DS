@@ -7,3 +7,11 @@ Mesa *MesaCocina::clone() {
 string MesaCocina::toString() {
     return "Cocina";
 }
+
+MesaCocina::MesaCocina() {
+
+}
+
+MesaCocina::MesaCocina(MesaCocina &copia) {
+    *this= copia;
+}

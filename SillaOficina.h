@@ -7,13 +7,14 @@
 #include "Silla.h"
 
 
-class SillaOficina : Silla{
+class SillaOficina : public Silla{
 
 
 public:
     SillaOficina();
-    virtual Silla * clone();
-    virtual string toString();
+    Silla * clone() ;
+    string toString();
+    SillaOficina(SillaOficina & copy);
 
 
 

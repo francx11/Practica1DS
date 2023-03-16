@@ -13,3 +13,11 @@ string SillaCocina::toString() {
     return "Cocina";
 
 }
+
+SillaCocina::SillaCocina() {
+
+}
+
+SillaCocina::SillaCocina(SillaCocina &copy) {
+    *this= copy;
+}

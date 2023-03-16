@@ -9,6 +9,14 @@ Silla *SillaOficina::clone() {
     return new SillaOficina(*this);
 }
 
-string Silla::toString() {
+string SillaOficina::toString() {
     return "Oficina";
+
+}
+SillaOficina::SillaOficina() {
+
+}
+
+SillaOficina::SillaOficina(SillaOficina &copy) {
+    *this= copy;
 }

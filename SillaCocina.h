@@ -7,11 +7,12 @@
 #include "Silla.h"
 
 
-class SillaCocina : Silla{
+class SillaCocina : public Silla{
 public:
     SillaCocina();
-    virtual Silla * clone();
-    virtual string toString();
+    Silla * clone() ;
+    string toString() ;
+    SillaCocina(SillaCocina & copy);
 
 
 
